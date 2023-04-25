@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    n=0
+    while n<len(s):
+        if int(s[n])%2==1:
+            i=i+1
+        n=n+1
+    return i
+print(main("5468745645"))
