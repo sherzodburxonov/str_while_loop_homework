@@ -5,5 +5,12 @@ def main(s):
         s: str
     Returns:
         int: return answer
-    """
-    return
+    """ 
+    i=0
+    n=0
+    while n<len(s):
+        if s[n].isdigit():
+            i=i+1
+        n=n+1
+    return i
+print(main("python 2022"))
